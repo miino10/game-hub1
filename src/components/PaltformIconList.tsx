@@ -13,6 +13,7 @@ import { HStack, Icon, Text } from "@chakra-ui/react";
 import { Platform } from "../hooks/useGames";
 import { IconType } from "react-icons";
 import { color } from "framer-motion";
+import CriticScore from "./CriticScore";
 
 interface Props {
   platforms: Platform[];
@@ -33,7 +34,7 @@ const PaltformIconList = ({ platforms }: Props) => {
   return (
     <HStack marginY={1}>
       {platforms.map((platform) => (
-        <Icon as={iconMap[platform.slug]} color="gray.500" />
+        <Icon key={platform.id} as={iconMap[platform.slug]} color="gray.500" />
       ))}
     </HStack>
   );
