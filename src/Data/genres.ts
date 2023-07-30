@@ -6,6 +6,7 @@ export default [
     games_count: 173582,
     image_background:
       "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
+
     games: [
       {
         id: 3498,

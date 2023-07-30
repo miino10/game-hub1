@@ -4,7 +4,7 @@ import { Game } from "../hooks/useGames";
 import PaltformIconList from "./PaltformIconList";
 import CriticScore from "./CriticScore";
 import getCroppedImageUrl from "../services/image-url";
-import { Emoji } from "./emoji";
+import { Emoji } from "./Emoji";
 interface Props {
   game: Game;
 }
